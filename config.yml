@@ -1,0 +1,40 @@
+baseURL : ""
+languageCode : en-us
+title : Houda TAALI
+theme : PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  mainSections:
+    - blogs
+  homeInfoParams:
+    Title: "Hi Stranger 👋"
+    Content: Welcome to my website. Here you'll find a lot of cool information about a lot of cool stuff.
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/houda-taali/"
+    - name: twitter
+      url: "https://twitter.com/HoudaTaali"
+    - name: github
+      url: "https://github.com/houdataali"
+
+
+menu:
+  main:
+    - identifier: "about-me"
+      name: "About Me"
+      url: "/about-me/"
+      weight: 10
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: Blogs
+      name: Blogs
+      url: /blogs/
+      weight: 30
+    
