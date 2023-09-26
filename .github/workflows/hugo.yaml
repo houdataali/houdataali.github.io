@@ -3,8 +3,7 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches:
-      
-main  # replace with the name of the branch you push to
+      working  # replace with the name of the branch you push to
 
 jobs:
   deploy:
