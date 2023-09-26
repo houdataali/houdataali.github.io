@@ -10,7 +10,7 @@ markup:
 
 params:
   mainSections:
-    - blogs
+    - Blogs
   homeInfoParams:
     Title: "Hi Stranger 👋"
     Content: Welcome to my website. Here you'll find a lot of cool information about a lot of cool stuff.
