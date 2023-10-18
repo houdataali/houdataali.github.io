@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Houda TAALI</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on Houda TAALI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Sep 2023 16:21:49 +0100</lastBuildDate><atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Concept to Execution: Understanding Apache Spark&#39;s Evolution</title>
+      <link>http://localhost:1313/blogs/spark/</link>
+      <pubDate>Sun, 24 Sep 2023 16:21:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blogs/spark/</guid>
+      <description>Apache Spark has become a powerhouse in the world of big data processing. It&amp;rsquo;s a tool that has revolutionized the way we handle massive datasets, enabling faster and more efficient data processing and analysis. But where did Spark come from, and how did it evolve into the robust framework we know today? In this blog post, we&amp;rsquo;ll take a journey through the history of Apache Spark, exploring its origins and its remarkable evolution from concept to execution.</description>
+    </item>
+    
+  </channel>
+</rss>
