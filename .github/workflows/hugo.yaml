@@ -53,8 +53,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Get Theme
         run: |
-        git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-        git submodule update --init --recursive
+             git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+             git submodule update --init --recursive
       - name: Update theme to Latest commit
         run: git submodule update --remote --merge
       - name: Build with Hugo
