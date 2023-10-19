@@ -30,7 +30,7 @@ In the year 2009, the emergence of Mesos marked a pivotal moment in the realm of
 
 It was within this innovative environment that Apache Spark was born, Apache Spark conceived initially as a tool to test the capabilities of Mesos. During this period, the dominant paradigm revolved around MapReduce, a model heavily reliant on disk storage. MapReduce's limitations in terms of performance were evident.
 
-But Spark was different. It embraced a memory-centric framework, where the majority of operations occurred within the realm of memory. This strategic shift was a deliberate response to the constraints that had long plagued the MapReduce model.
+But Spark was different, It embraced a memory-centric framework, where the majority of operations occurred within the realm of memory. This strategic shift was a deliberate response to the constraints that had long plagued the MapReduce model.
 
 ### The Remarkable Reawakening 💡
 
@@ -56,21 +56,21 @@ Spark speaks the language of developers! It offers APIs not just in its native S
 
 ### Memory-Based Speed 
 
-Spark's brilliance doesn't stop there. Unlike traditional models that rely heavily on disk storage, Spark operates predominantly in-memory. This memory-centric approach results in lightning-fast data processing and analysis, transforming the landscape of big data.
+Spark's brilliance doesn't stop there; Unlike traditional models that rely heavily on disk storage, Spark operates predominantly in-memory. This memory-centric approach results in lightning-fast data processing and analysis, transforming the landscape of big data.
 
 ## Spark Execution {#spark-execution}
 ### Resources Management  💼 {#resource-management}
 1. **On a Single Machine:**
 
    - In a single-machine environment, we have computing resources (CPU, RAM, GPU...) along with an operating system (OS) and multiple applications, as mentioned in the figure below.
-   - The (OS) is responsible for resource management, which includes tasks such as resource scheduling and determining the allocation of resources (CPU, Memory, etc.) to individual applications. The allocation is based on available computing resources and the concurrent applications running on your computer.
+   - The (OS) is responsible for resource management, which includes tasks such as resource scheduling and determining the allocation of resources (CPU, Memory, etc...) to individual applications. The allocation is based on available computing resources and the concurrent applications running on your computer.
    <center><img src="/single_machine.png" width="300" height="400"></center>    
 
 2. **In a Cluster:**
 
    - In a cluster, multiple working nodes are interconnected to form a cohesive computing environment. These nodes collaborate to perform distributed data processing tasks efficiently.
     ![Cluster Setup](/cluster_setup.png)  
-   - In a cluster, there are dedicated applications for resource management that orchestrate the allocation of resources, These applications include
+   - In a cluster, there are dedicated applications for resource management that orchestrate the allocation of resources, These applications include:
      - Cluster manager
      - Node manager
      <center><img src="/node_cluster_manager.png" width="900" height="200"></center> 
@@ -113,8 +113,8 @@ The above image illustrates the ⚙️ smooth process of Spark job submission:
 
 5. The cluster manager inform back the driver process about the location of executor processes 📣. 
 
-6. Now, the Spark application is running and the Driver process starts to distribute tasks among teh executors. 
-> **Note:** All the Spark application logic will be sent to executors in the form of tasks to do teh computation in parallel, so the spark driver process is the heart  of spark app. 
+6. Now, the Spark application is running and the Driver process starts to distribute tasks among the executors. 
+> **Note:** All the Spark application logic will be sent to executors in the form of tasks to do the computation in parallel, so the spark driver process is the heart  of spark app. 
 
 
 This orchestrated flow ensures that your Spark job is executed efficiently within the cluster.
